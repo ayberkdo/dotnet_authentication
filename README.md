@@ -1,4 +1,4 @@
-# dotnet_authentication
+# .NET Authentication
 
 This project is a web application built with .NET 9 and MySQL, providing basic user authentication and authorization features.
 
@@ -7,8 +7,7 @@ This project is a web application built with .NET 9 and MySQL, providing basic u
 - User registration, login, and logout
 - Dashboard page is protected from unauthorized access
 - User management with Entity Framework Core and MySQL
-- Modern and clean UI
-- Advanced validation and user-friendly error messages
+- Advanced validation and error messages
 - Routing:
   - `/` → Home page
   - `/Account/Login` → Login
@@ -36,9 +35,3 @@ This project is a web application built with .NET 9 and MySQL, providing basic u
    ```sh
    dotnet watch run
    ```
-
-## Developer
-
-- [ayberkdo](https://github.com/ayberkdo)
-
-Feel free to contact me via GitHub for any feedback or contributions.
