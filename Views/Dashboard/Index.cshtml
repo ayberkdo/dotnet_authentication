@@ -1,0 +1,6 @@
+@{
+    ViewData["Title"] = "Dashboard";
+}
+<h2>Dashboard</h2>
+<p>Hoş geldiniz, @(User.Identity != null && User.Identity.Name != null ? User.Identity.Name : "Kullanıcı")!</p>
+<a href="Account/Logout">Logout</a>
